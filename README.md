@@ -229,8 +229,8 @@ def test_model(model, test_loader):
 
     # Compute confusion matrix
     cm = confusion_matrix(all_labels, all_preds)
-    print("Name: Mohamed Zabir Khan A      ")
-    print("Register Number:  212224230162     ")
+    print("Name: Prathikshaa  ")
+    print("Register Number:  212224100043 ")
     plt.figure(figsize=(8, 6))
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=train_dataset.classes, yticklabels=train_dataset.classes)
     plt.xlabel('Predicted')
@@ -239,8 +239,8 @@ def test_model(model, test_loader):
     plt.show()
 
     # Print classification report
-    print("Name: Mohamed Zabir Khan A  ")
-    print("Register Number: 212224230162 ")
+    print("Name: Prathikshaa  ")
+    print("Register Number: 212224100043 ")
     print("Classification Report:")
     print(classification_report(all_labels, all_preds, target_names=train_dataset.classes))
 
